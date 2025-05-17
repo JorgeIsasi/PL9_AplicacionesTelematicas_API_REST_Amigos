@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewData["Title"] = "Adios";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Adios</h1>
+
+
+<p>Modifica la vista para que se muestre valor tantas veces como indique "veces":</p>
+
+<ul>
+    @for (int i = 0; i < ViewBag.veces; i++)
+    {
+        <li>@ViewBag.valor</li>
+    }
+</ul>
+

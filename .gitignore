@@ -1,0 +1,56 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Logs
+*.log
+
+# Visual Studio
+.vscode/
+.vs/
+
+# NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Entity Framework Migrations
+Migrations/
+
+# Database files
+*.mdf
+*.ldf
+
+# Rider
+.idea/
+
+# Resharper
+*.DotSettings.user
+
+# Secrets
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+Firebase/amigos-firebase.json
+
+# JetBrains Rider
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Publish output
+wwwroot/dist/
+wwwroot/node_modules/
+publish/
